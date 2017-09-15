@@ -6,23 +6,11 @@
  */
 
 export default [
-  // Home
-  {
-    path: '/home',
-    name: 'home.index',
-    component: () => import('@/pages/home/index'),
 
-    // If the user needs to be authenticated to view this page
-    meta: {
-      auth: true,
-    },
-  },
-
-  // Account
   {
-    path: '/account',
-    name: 'account.index',
-    component: () => import('@/pages/account/index'),
+    path: '/todo',
+    name: 'todo.index',
+    component: () => import('@/pages/todo/index'),
 
     // If the user needs to be authenticated to view this page.
     meta: {
@@ -56,11 +44,11 @@ export default [
 
   {
     path: '/',
-    redirect: '/home',
+    redirect: '/todo',
   },
 
   {
     path: '/*',
-    redirect: '/home',
+    redirect: '/todo',
   },
 ];

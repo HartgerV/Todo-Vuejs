@@ -35,14 +35,19 @@
   },
   "homepage": "https://github.com/petervmeijgaard/vue-2-boilerplate#readme",
   "dependencies": {
+    "@gerhardsletten/epubjs": "^0.3.36",
     "axios": "^0.16.2",
     "bootstrap": "4.0.0-beta",
+    "epubjs": "^0.3.11",
     "font-awesome": "^4.7.0",
+    "jszip": "^3.1.4",
     "vue": "^2.4.2",
     "vue-i18n": "^7.2.0",
     "vue-router": "^2.7.0",
     "vuex": "^2.4.0",
-    "vuex-router-sync": "^4.2.0"
+    "vuex-persist": "^0.1.8",
+    "vuex-router-sync": "^4.2.0",
+    "webpack": "^3.6.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -108,7 +113,6 @@
     "vue-loader": "^13.0.4",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.4.2",
-    "webpack": "^2.6.1",
     "webpack-bundle-analyzer": "^2.2.1",
     "webpack-dev-middleware": "^1.10.0",
     "webpack-hot-middleware": "^2.18.0",

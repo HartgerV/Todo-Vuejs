@@ -22,21 +22,6 @@ import './plugins/vuex-router-sync';
 import './plugins/bootstrap';
 import './plugins/font-awesome';
 
-/* ============
- * Styling
- * ============
- *
- * Import the application styling.
- * Stylus is used for this boilerplate.
- *
- * If you don't want to use Stylus, that's fine!
- * Replace the stylus directory with the CSS preprocessor you want.
- * Import the entry point here & install the webpack loader.
- *
- * It's that easy...
- *
- * http://stylus-lang.com/
- */
 
 import './assets/stylus/app.styl';
 
@@ -54,6 +39,6 @@ store.dispatch('auth/check');
 
 Vue.config.productionTip = false;
 
-new Vue({
+const vm = new Vue({
   render: h => h(App),
 }).$mount('#app');

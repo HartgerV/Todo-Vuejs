@@ -3,9 +3,9 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <router-link
         class="navbar-brand"
-        :to="{ name: 'home.index' }"
+        :to="{ name: 'todo.index' }"
       >
-        Vue 2 Boilerplate
+        Vue Todo
       </router-link>
 
       <button
@@ -22,23 +22,13 @@
       >
         <ul class="navbar-nav mr-auto">
           <router-link
-            :to="{ name: 'home.index' }"
-            active-class="active"
-            class="nav-item"
-            tag="li"
+              :to="{ name: 'todo.index' }"
+              active-class="active"
+              class="nav-item"
+              tag="li"
           >
             <a class="nav-link">
-              Home
-            </a>
-          </router-link>
-          <router-link
-            :to="{ name: 'account.index' }"
-            active-class="active"
-            class="nav-item"
-            tag="li"
-          >
-            <a class="nav-link">
-              Account
+              Todo
             </a>
           </router-link>
         </ul>
